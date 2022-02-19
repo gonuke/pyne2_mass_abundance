@@ -132,6 +132,7 @@ def generate_cpp():
     cpp_file += "// Implements basic nuclear data functions.\n"
     cpp_file += "#ifndef PYNE_IS_AMALGAMATED\n"
     cpp_file += "#include \"mass_abundance_data.h\"\n"
+    cpp_file += "#include \"mass_abundance_version.h\"\n"
     cpp_file += "#include \"nucname.h\"\n"
     cpp_file += "#endif\n"
     cpp_file += "  \n"
