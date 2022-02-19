@@ -1,9 +1,12 @@
 # Generate version include file
 execute_process(COMMAND python3 "${CMAKE_CURRENT_LIST_DIR}/../python/pyne2_${PYNE2_COMP_NAME}_version.py" WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
+execute_process(COMMAND python3 "${CMAKE_CURRENT_LIST_DIR}/atomicgen.py" WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
 # setup source files
 set(PYNE2_SRCS
   ${PYNE2_VERSION_HEADER}
+  mass_abundance_data.cpp
   )
 
 # compile and link library
