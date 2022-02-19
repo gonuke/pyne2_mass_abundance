@@ -2,7 +2,7 @@ import sys
 sys.path.append("../../config")
 import write_common_headers
 
-P2C_NAME = 'stub'
+P2C_NAME = 'mass_abundance'
 P2C_STUB_MAJOR_VERSION = 0
 P2C_STUB_MINOR_VERSION = 1
 P2C_STUB_PATCH_VERSION = 0

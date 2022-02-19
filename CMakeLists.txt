@@ -1,7 +1,7 @@
 # Defines the CMake commands/policies
 cmake_minimum_required(VERSION 3.0.0)
 
-SET(PYNE2_COMP_NAME "stub")
+SET(PYNE2_COMP_NAME "mass_abundance")
 
 # Make the scripts available in the 'cmake' directory available for the
 # 'include()' command, 'find_package()' command.
